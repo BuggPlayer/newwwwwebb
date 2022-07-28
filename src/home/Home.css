@@ -1,0 +1,76 @@
+.home{
+    background-color: #f3fbfb;
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.home-right-title{
+ margin-top: 160px;
+    font-size: 64px;
+    font-family: Inter;
+    font-weight: bold;
+}
+.home-left-img{
+    margin-top: 50px;
+    display: flex;
+    width: 600px;
+    /* background-color:white; */
+    margin-right: 100px;
+    position: relative;
+}
+
+.home-right-sdubtitle{
+
+
+    margin-top: 30px;
+    font-family: "Inter";
+    line-height: 30px;
+}
+.customer-card{
+background-color:#f3fbfb;
+height: 100px;
+width:250px ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+border-radius: 20px;
+padding: 10px;
+position:absolute;
+top: 530px;
+right: 400px;
+}
+ 
+
+@media screen and (max-width: 960px){
+
+    .home{
+        background-color: red;
+        padding: 0;
+        margin: 0;
+        /* padding-right: 80px;
+        padding-left: 80px; */
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* height: 100vh; */
+    }
+
+    .home-right-title{
+        margin-top: 10px;
+           font-size: 64px;
+           font-family: Inter;
+           font-weight: bold;
+       }
+    .home-left-img{
+        display: none;
+    }
+
+    .customer-card{
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,57 @@
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  .testimonial-content {
+    text-align: center;
+    padding: 5px 0;
+  }
+  .testimonial-card {
+    display: flex;
+  }
+  .test-cards-container {
+    width: 280px;
+    margin: 40px 20px;
+  }
+  .test-cards {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .test-card-image {
+    width: 80%;
+    border-radius: 100%;
+    padding: 5px;
+  }
+  .test-card-desc,
+  .test-card-name,
+  .test-card-desig {
+    text-align: center;
+    padding: 5px 0;
+  }
+  @media only screen and (max-width: 475px) {
+    .test-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .test-cards-container {
+      width: 90%;
+      margin: 10px 0px;
+    }
+    .test-cards {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
