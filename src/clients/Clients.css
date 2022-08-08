@@ -1,0 +1,84 @@
+.clinet-home {
+  background-color: white;
+  margin: 4em auto;
+  width: 90%;
+  /* margin: 0 auto; */
+  padding: 2rem 0;
+
+}
+.clients {
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.client-title {
+margin-bottom: 1.5em;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.clients-container {
+  display: flex;
+  justify-content: space-around;
+}
+.clients-card {
+
+  margin: 2em 0;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid pink; */
+}
+.clinet-name {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: gray;
+  text-align: center;
+}
+
+.client-image {
+  margin: 0 0.4rem;
+  width: 2.6rem;
+}
+
+ @media only screen and (max-width:475px) {
+    .clients {
+      
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+     
+      }
+      .client-title {
+       
+        font-weight: 600;
+        text-align: center;
+      }
+      .clients-container {
+        background-color: initial;
+        display: block;
+        justify-content: flex-start;
+       
+      }
+      .clients-card {
+        display: flex;
+       
+        align-content: center;
+        align-items: center;
+        justify-content:flex-start;
+        margin-left: 50px;
+      
+      }
+      .client-image {
+        height: 30px;
+        width: 30px;
+        margin: 10px 0  ;
+        background-color: initial;
+      }
+      
+} 

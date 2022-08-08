@@ -1,7 +1,7 @@
 .cards {
   background-color: white;
   
-  height: 250px;
+ 
   width: 90%;
   display: flex;
   justify-content: center;
@@ -25,16 +25,16 @@
 @media only screen and (max-width: 768px) {
   .cards {
     background-color: gray;
-    height: 250px;
+ /* padding: 1em  ; */
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    border: 2px;
-    box-shadow: 10px;
+    border-radius: .5em;
+    border: .2em;
+    box-shadow: .5em;
     box-shadow: 2px 4px 6px gray;
-    margin: 10px;
+
   }
   .card-container {
     width: 80%;

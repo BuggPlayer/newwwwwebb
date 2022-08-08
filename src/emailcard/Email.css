@@ -1,0 +1,122 @@
+.email-card {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.email-content-container {
+  /* border: 1px solid pink; */
+  margin: 1.4em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.email-content {
+  font-size: 1.4rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 1.7em;
+}
+.email-card-container {
+
+  padding: 1.5em 0;
+  background-color: black;
+
+  width: 80%;
+  border-radius: 1.4em;
+}
+
+.inp-container {
+  margin: 1.5em 0;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 100%; */
+  align-items: center;
+  position: relative;
+}
+
+.input-email {
+  margin: 1em 0;
+  padding: 1.3em 1em;
+  /* background-color: green; */
+  width: 30%;
+  border-radius: 0.8em;
+  /* width: 50%; */
+  border: none;
+  font-size: .8rem;
+}
+.email-btn {
+  margin: 1em;
+  padding: .8em 0;
+  background-color: green;
+  border: none;
+  border-radius: 0.8em;
+  width: 30%;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 475px) {
+  .email-card {
+    background-color: #f3fbfb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+  }
+  /* .email-card-container {
+    background-color: black;
+   
+    width: 80%;
+    border-radius: 20px;
+
+  } */
+  /* .email-content-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  } */
+  .email-content {
+    /* font-size: 22px; */
+    font-family: "Inter";
+    font-weight: bold;
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+  }
+  .e-subs {
+    padding: 10px 0;
+  }
+  .inp-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    position: relative;
+  }
+  .input-email {
+    background-color: white;
+    margin: 20px 0;
+    height: 40px;
+    padding: 10px;
+
+    border-radius: 10px;
+    width: 60%;
+    border: none;
+  }
+  
+}

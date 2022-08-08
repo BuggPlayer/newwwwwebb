@@ -1,0 +1,83 @@
+.footer {
+
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+
+}
+
+.f-desc {
+margin: 1em 0;
+  font-family: "Inter" , sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.f-social-links {
+  display: flex;
+  margin: 2.5em 0;
+  justify-content: space-between;
+ 
+}
+
+
+
+
+.footer-c {
+  display: flex;
+  /* justify-content: center; */
+  padding: 2em 1em;
+
+}
+.f-logo {
+  font-family: "Inter" , sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* QUICK LINKS------ */
+.f-links {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 23px;
+
+}
+
+.f-q-links {
+ margin: 1.5em 0;
+  font-family: "Inter" , sans-serif;
+  font-size: 1rem;
+
+}
+
+/* SUPPOR----------- */
+.sprt-f{
+    font-family: "Inter" , sans-serif; font-size: 1.8rem; font-weight: bold
+}
+.sprt-desc{
+    margin-top: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 1.3rem;
+}
+.copyright-main{
+  margin: 2em 0;
+  display: flex;
+  justify-content: center;
+
+}
+.copyright-text{
+  font-family: "Inter" , sans-serif;
+  font-size: 1rem;
+  
+}
+@media only screen and (max-width:475px) {
+    .footer {
+        /* height: auto; */
+        /* padding: 0 50px; */
+      }
+      .copyright-main{
+        /* background-color: red; */
+        text-align: center;
+      }
+}

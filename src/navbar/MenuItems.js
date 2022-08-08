@@ -22,7 +22,7 @@ const menuItem =[
         cName:""
     }, {
         title: "why choose us?",
-        url:"/",
+        url:"/email",
         cName:""
     }
 

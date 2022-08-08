@@ -1,32 +1,38 @@
-import { colors } from '@mui/material'
-import React from 'react'
-import Logo from "../assets/imges/instalogo.jpeg"
-
+import { colors } from "@mui/material";
+import React from "react";
+import CLogo from "../assets/imges/Clogo.png";
+import "./Clients.css";
 const Clinets = () => {
+  const data = [
+    { name: "Etihad Railway" },
+    { name: "CNCM LLC" },
+    { name: "URHope Foodbank" },
+    { name: "Tech Locate " },
+  ];
   return (
-   <div>
-   <div style={{  marginTop:20, display:"flex" , justifyContent:"center", alignContent:"center", alignItems:"center"}}  >
-   <p  style={{  fontSize:36 , fontFamily:"Inter"  , fontWeight:600 ,}}>Company Grow With Us</p>
-   </div>
-   
-    <div  style={{  backgroundColor:"white" , display:"flex" , justifyContent:"center", alignContent:"center", alignItems:"center", height:"35vh"}}>
+    <div className="clinet-home">
+      <div className="clients">
+        <p className="client-title">Companies Grow With Us</p>
+      </div>
 
-    {
-      [1,2,3,4].map((item)=>{
+      <div style={{}} className="clients-container">
+        {data.map((item) => {
+          return (
+            <div style={{}} className="clients-card">
+              <img className="client-image" alt="" src={CLogo} />
 
-        return(
-          <div  style={{ display:"flex", margin:50, alignContent:"center", alignItems:"center"}}  >
-          <img style={{ height:45, width:50, }}   src={Logo}  />
-    
-    <p  style={{  marginLeft:20 , fontFamily:"Inter", fontSize:40, fontWeight:500 , color:"gray" ,textAlign:"center"}}>google</p>
-          </div>
-        )
-      })
-    }
-    
+              <p
+              className="clinet-name"
+               
+              >
+                {item.name}
+              </p>
+            </div>
+          );
+        })}
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Clinets
+export default Clinets;
